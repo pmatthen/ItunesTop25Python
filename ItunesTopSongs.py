@@ -9,4 +9,3 @@ resultsList = data['feed']['results']
 for index in range(len(resultsList)):
     resultsListDictionary = resultsList[index]
     print("{}. {} - {}".format((index+1), resultsListDictionary['artistName'], resultsListDictionary['name']))
-    print "\n"
